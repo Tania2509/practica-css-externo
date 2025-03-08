@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .logo{
     width: 100px;
 }
@@ -5,14 +9,58 @@ header{
     text-align: center;
 }
 nav li{
-    display:inline;
-    padding: 60px;
-    font-size: 25px;
+    display:inline; /*Muestra los elementos en línea horizontal*/
+    padding: 60px; /*Crea espacio de 60px alrededor del texto*/
+    font-size: 25px; /*Cambiamos el tamaño del texto*/
 }
 nav a{
-   text-decoration: none;
-   color: seagreen;
+   text-decoration: none; /*Quitamos el subrayado de los enlaces*/
+   color: seagreen; /*Colocamos un color negro a la letra*/
 }
 nav a:hover{
-    text-decoration: underline;
+    text-decoration: underline; /*Cuando la persona pase el mouse en el enlace, se subrayará el texto*/
+}
+main {
+    background-color: #ffffff;
+    color: #000; 
+}
+.welcome {
+    padding: 20px; /*Hacemos un espacio alrededor de 20px alrededor del contenido*/
+    background-color: darkblue; /*Color de fondo del DIV*/
+    text-align: center; /*Alineamos el texto al centro*/
+    color: white; /*Colocamos color blanco al texto*/
+}
+.courses{
+    padding: 30px;
+}
+p {
+    font-size: 18px; /*Aumenta el tamaño de la letra a 18px*/
+    line-height: 1.4; /*Aumenta el espacio entre líneas a 1.4 puntos*/
+}
+.welcome h1, .courses h2 {
+    color: #005A9C;
+}
+.InfoCurso img{
+    width: 225px; /*Ancho de la imagen*/
+    float: left; /*Colocamos la imagen a la izquierda*/
+    margin-right: 30px; /*Hacemos un pequeño espacio a la derecha de las imágenes*/
+}
+.InfoCurso {
+    overflow: auto; /*Hace que la imagen no se salga del DIV, sino que este se ajuste a la imagen*/
+    margin-bottom: 30px; /*Da un espacio abajo del DIV de cada curso*/
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+}
+.image{
+    width: 600px;
+    border: 2px solid black;
+}
+.about img{
+    width: 100%;
+}
+.about{
+    text-align: justify;
 }
